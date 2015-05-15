@@ -1,0 +1,4 @@
+name = "SampleModule"
+# badges = ["travis"]
+module_maker="ModuleBuildTiny"
+

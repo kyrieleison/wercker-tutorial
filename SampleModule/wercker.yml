@@ -1,0 +1,9 @@
+box: papix/perl5.18@0.0.1
+build:
+    steps:
+        - script:
+            name: Install modules
+            code: cpanm -l local --installdeps .
+        - script:
+            name: Run test
+            code: prove -l -Ilocal t
